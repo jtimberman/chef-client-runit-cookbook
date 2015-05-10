@@ -3,7 +3,7 @@ maintainer       'Joshua Timberman'
 maintainer_email 'opensource@housepub.org'
 license          'Apache 2.0'
 description      'Sets up chef-client as a runit-supervised service'
-version          '0.1.0'
+version          '0.1.1'
 depends          'runit'
 
 unless defined?(Ridley::Chef::Cookbook::Metadata) || defined?(Stove::Cookbook::Metadata)
